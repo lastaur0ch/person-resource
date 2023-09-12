@@ -1,0 +1,19 @@
+### Add a new person
+pm.test("Response status code is 201", function () {
+    pm.response.to.have.status(201);
+});
+
+### Fetch details of a person
+pm.test("Response status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+### Modify details of an existing person
+pm.test("Response status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+### Remove a person
+pm.test("Response status code is 204", function () {
+    pm.response.to.have.status(204);
+});
