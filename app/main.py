@@ -14,7 +14,7 @@ class Person(BaseModel):
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to Person Resource"}
+    return {"message": "Welcome to Person Resource by jjxavier"}
 
 @app.post("/api", status_code=status.HTTP_201_CREATED)
 def create_person(person: Person, db: Session = Depends(get_db)):

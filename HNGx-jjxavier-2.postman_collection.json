@@ -28,7 +28,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Michael\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Daniel\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -36,15 +36,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api",
-					"protocol": "http",
+					"raw": "https://person-resource-x.onrender.com/api",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"person-resource-x",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api"
 					]
@@ -73,18 +71,16 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/11",
-					"protocol": "http",
+					"raw": "https://person-resource-x.onrender.com/api/5",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"person-resource-x",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
-						"11"
+						"5"
 					]
 				}
 			},
@@ -121,18 +117,16 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/12",
-					"protocol": "http",
+					"raw": "https://person-resource-x.onrender.com/api/6",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"person-resource-x",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
-						"12"
+						"6"
 					]
 				}
 			},
@@ -157,18 +151,16 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/12",
-					"protocol": "http",
+					"raw": "https://person-resource-x.onrender.com/api/7",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"person-resource-x",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
-						"12"
+						"7"
 					]
 				}
 			},
