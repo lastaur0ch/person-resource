@@ -1,5 +1,5 @@
 # person-resource
-For documentation, see [DOCUMENTATION.md](./DOCUMENTATION.md)
+
 ## Installation
 ### Install requirements
 > pip install -r requirements.txt
@@ -15,3 +15,6 @@ Import HNGx-jjxavier-2.postman_collection.json to postman. Test scripts have bee
 
 ### Swagger
 > https://person-resource-x.onrender.com/docs
+
+
+For documentation, see [DOCUMENTATION.md](./DOCUMENTATION.md)

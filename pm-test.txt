@@ -1,4 +1,6 @@
-//This is a postman test script for each CRUD action. Use for the corresponding Request on postman
+See HNGx-jjxavier-2.postman_collection.json for the postman collection with the test script embedded..
+
+//Below are postman test script for each CRUD action. Use for the corresponding Request on postman
 
 
 ### POST Request - Add a new person
