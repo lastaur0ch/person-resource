@@ -1,5 +1,5 @@
 # person-resource
-
+For documentation, see [DOCUMENTATION.md](./DOCUMENTATION.md)
 ## Installation
 ### Install requirements
 > pip install -r requirements.txt

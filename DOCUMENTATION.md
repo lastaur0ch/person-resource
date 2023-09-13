@@ -1,5 +1,5 @@
 # Person-Resource Documentation
-
+For installation, see [README.md](./README.md)
 
 ## POST - Create Person | /api
 This is used to create a new person. Only a name is required in the body of the request and it must be unique.
