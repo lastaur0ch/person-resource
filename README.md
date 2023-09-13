@@ -11,7 +11,7 @@
 ## Testing 
 
 ### Postman
-Import HNGx-jjxavier-2.postman_collection.json to postman. Test scripts have been added for each request.
+Import the [postman collection](./HNGx-jjxavier-2.postman_collection.json) to postman. Test scripts have been added for each request.
 
 ### Swagger
 > https://person-resource-x.onrender.com/docs
