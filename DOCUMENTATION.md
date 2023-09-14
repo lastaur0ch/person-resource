@@ -1,8 +1,10 @@
 # Person-Resource Documentation
 For installation, see [README.md](./README.md)
 
-## POST - Create Person | /api
+## Create a Person
 This is used to create a new person. Only a name is required in the body of the request and it must be unique.
+**Method**: POST
+**Path**: /api
 
 ### Sample URL
 > https://person-resource-x.onrender.com/api
@@ -13,59 +15,74 @@ This is used to create a new person. Only a name is required in the body of the 
 >}
 
 ### Sample Response
->Status: 201 Created
+> **Status**: 201 Created
 
 >{
 >    "data": {
 >        "user_id": 5,
->        "name": "Jane"
+>        "name": "Daniel"
 >    }
 >}
 
 
-## GET - Get Person | /api/{user_id}
-This request is used to fetch a person using their user id.
+##  Get a Person
 
+This request is used to fetch a person using their user id.
+**Method**: GET
+**Path**: /api/{user_id}
 ### Sample URL
->https://person-resource-x.onrender.com/api/6
+>https://person-resource-x.onrender.com/api/Daniel
 
 ### Sample Response
->Status: 200 OK
+> **Status**: 200 OK
 
 >{
 >    "data": {
 >        "user_id": 5,
->        "name": "Cynthia"
+>        "name": "Daniel"
 >    }
 >}
 
-## PUT - Update Person | /api/{user_id}
+## Update Person
+
 This request is used to update a person identified using their user id. Enter the new name in the body of the request.
+**Method**: PUT
+**Path**: /api/{user_id}
 
 ### Sample URL
->https://person-resource-x.onrender.com/api/6
+>https://person-resource-x.onrender.com/api/Daniel
 
 ### Sample Body
 >{
->    "name": "Corleone"
+>    "name": "John"
 >}
 
 ### Sample Response
-> Status: 200 OK
+> **Status**: 200 OK
 
 >{
 >    "data": {
 >        "user_id": 5,
->        "name": "Mary"
+>        "name": "John"
 >    }
 >}
 
 
-## DELETE - Delete Person | /api/{user_id}
+## Delete Person
 This request is used to delete a person using their user id.
+**Method**: DELETE
+**Path**: /api/{user_id}
 
 ### Sample URL
-> https://person-resource-x.onrender.com/api/7
+> https://person-resource-x.onrender.com/api/John
 
 ### Sample Response
-> Status: 204 No content
+> **Status**: 204 No content
+
+
+## Schema
+
+### Person
+- **name**: string, unique (required)
+- **id**: integer (generated)
+- **created_at**: timestamp (generated)
