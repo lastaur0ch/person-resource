@@ -28,7 +28,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Daniel\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Mary Jane\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -71,7 +71,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://person-resource-x.onrender.com/api/5",
+					"raw": "https://person-resource-x.onrender.com/api/Bruce Lee",
 					"protocol": "https",
 					"host": [
 						"person-resource-x",
@@ -80,7 +80,7 @@
 					],
 					"path": [
 						"api",
-						"5"
+						"Bruce Lee"
 					]
 				}
 			},
@@ -109,7 +109,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Corleone\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Morgan Freeman\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -117,7 +117,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://person-resource-x.onrender.com/api/6",
+					"raw": "https://person-resource-x.onrender.com/api/Bruce Lee",
 					"protocol": "https",
 					"host": [
 						"person-resource-x",
@@ -126,7 +126,7 @@
 					],
 					"path": [
 						"api",
-						"6"
+						"Bruce Lee"
 					]
 				}
 			},
@@ -151,7 +151,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://person-resource-x.onrender.com/api/7",
+					"raw": "https://person-resource-x.onrender.com/api/Nutty Prof",
 					"protocol": "https",
 					"host": [
 						"person-resource-x",
@@ -160,7 +160,7 @@
 					],
 					"path": [
 						"api",
-						"7"
+						"Nutty Prof"
 					]
 				}
 			},
